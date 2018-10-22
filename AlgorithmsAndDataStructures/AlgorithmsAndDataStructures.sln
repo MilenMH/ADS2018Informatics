@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmsAndDataStructures", "AlgorithmsAndDataStructures\AlgorithmsAndDataStructures.csproj", "{DEC2BEA7-379B-4AD4-8C3B-CB632E74E222}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilenHinkov_1601261019", "MilenHinkov_1601261019\AlgorithmsAndDataStructures.csproj", "{DEC2BEA7-379B-4AD4-8C3B-CB632E74E222}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
