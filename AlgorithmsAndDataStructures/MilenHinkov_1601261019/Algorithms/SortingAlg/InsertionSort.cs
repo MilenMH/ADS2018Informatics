@@ -1,9 +1,8 @@
 ﻿using System;
-using AlgorithmsAndDataStructures.Algorithms.Interfaces;
 
-namespace AlgorithmsAndDataStructures.Algorithms
+namespace AlgorithmsAndDataStructures.Algorithms.SortingAlg
 {
-    public class InsertionSort<T> : SortingAlgorithm<T> where T : IComparable<T>
+    public class InsertionSort<T> where T : IComparable<T>
     {
         public T[] Sort(T[] array)
         {

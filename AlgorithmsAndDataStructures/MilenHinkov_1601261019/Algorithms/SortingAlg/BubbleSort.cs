@@ -1,9 +1,8 @@
 ﻿using System;
-using AlgorithmsAndDataStructures.Algorithms.Interfaces;
 
-namespace AlgorithmsAndDataStructures.Algorithms
+namespace AlgorithmsAndDataStructures.Algorithms.SortingAlg
 {
-    public class BubbleSort<T> : SortingAlgorithm<T> where T : IComparable<T>
+    public class BubbleSort<T> where T : IComparable<T>
     {
         public T[] Sort(T[] array)
         {

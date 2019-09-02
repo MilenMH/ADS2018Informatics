@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "82d89c99e785a4dafc90ef69e26e35b3b268bf85"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "MilenHinkov_1601261019/1.0.0": {
+        "dependencies": {
+          "C5": "2.5.3"
+        },
+        "runtime": {
+          "MilenHinkov_1601261019.dll": {}
+        }
+      },
+      "C5/2.5.3": {
+        "runtime": {
+          "lib/netstandard1.0/C5.dll": {
+            "assemblyVersion": "2.5.0.0",
+            "fileVersion": "2.5.3.17428"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MilenHinkov_1601261019/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "C5/2.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-icVlHgTvx5hWfulyNdFfmFllzHHCRvnf5sVuM8fVbRh2HGijkJA6aOlyUGv2clheEROiqTXb2ws4L68jQ5P5VA==",
+      "path": "c5/2.5.3",
+      "hashPath": "c5.2.5.3.nupkg.sha512"
+    }
+  }
+}

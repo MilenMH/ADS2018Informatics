@@ -1,30 +1,22 @@
-﻿using System;
-using AlgorithmsAndDataStructures.Algorithms;
-using AlgorithmsAndDataStructures.Algorithms.Interfaces;
-
-namespace AlgorithmsAndDataStructures
+﻿namespace AlgorithmsAndDataStructures
 {
     public class MainClass
     {
         public static void Main(string[] args)
         {
-            var array = new int[] { 1, 4, 2, 77, -7, 0 };
-            SortingAlgorithm<int> sorter = new BubbleSort<int>();
-            var sorted = sorter.Sort(array);
+            //Milen Hinkov's tasks
+            //Task                                                          namespace
 
-            Console.WriteLine(string.Join(",", sorted));
+            //Create a program for converting binary to decimal and back    BinaryConversion
+            //Create a bubble sort and Sort algorithm choosen by you        SortingAlg
+            //Задача 2.49. "Отборна"опашка                                  PriorityQueue
+            //Задача 3.50. Двойно сортиране.                                DoubleSort 
+            //Задача 4.16. Радиус на достижимост.                           RadiusOfReachability
+            //Задача 5.95. Максимална ненамаляваща редица                   DynamicProgramming
+            //Задача 6.106. Числено триизмерно съчетание                    
+            //Задача 7.37. k-най малки елемента в масив                     KSmallestElements
+            //Задача 9.49. Максимално съчетание на дейности от две групи    MaximumCombinationOfActivities
 
-            array = new int[] { 15, 12, 7, 1, 0, -99 };
-            sorter = new SelectionSort<int>();
-            sorted = sorter.Sort(array);
-
-            Console.WriteLine(string.Join(",", sorted));
-
-            array = new int[] { 15, 12, 7, 1, 0, -99 };
-            sorter = new InsertionSort<int>();
-            sorted = sorter.Sort(array);
-
-            Console.WriteLine(string.Join(",", sorted));
         }
     }
 }

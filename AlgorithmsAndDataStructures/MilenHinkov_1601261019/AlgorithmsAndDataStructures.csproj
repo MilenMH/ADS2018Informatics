@@ -6,4 +6,8 @@
     <AssemblyName>MilenHinkov_1601261019</AssemblyName>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="C5" Version="2.5.3" />
+  </ItemGroup>
+
 </Project>
